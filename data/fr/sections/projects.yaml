@@ -1,6 +1,6 @@
 # section information
 section:
-  name: প্রোজেক্ট
+  name: Projets
   id: projects
   enable: true
   weight: 4
@@ -11,55 +11,61 @@ section:
 
 # filter buttons
 buttons:
-- name: সব বিষয়
+- name: Tous
   filter: "all"
-- name: প্রোফেসনাল
-  filter: "professional"
-- name: প্রাতিষ্ঠানিক
-  filter: "academic"
-- name: শখের প্রোজেক্ট
-  filter: "hobby"
+- name: Développement
+  filter: "development"
+- name: Formation
+  filter: "training"
+- name: Analyse
+  filter: "data-analysis"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
+- name: FROGS
+  logo: /images/sections/projects/FROGS_logo.png
+  role: Développeur
+  timeline: "November 2015 - Present"
+  url: "http://frogs.toulouse.inra.fr"
+  summary: FROGS est un outil conçu pour produire une matrice de comptage d'OTUs à partir de données de métabarcoding issus de séquençage NGS.
+  tags: ["development"]
+  
+- name: Responsable du service d'analyse de données
+  logo: /images/sections/projects/migale.png
+  role: Responsable du processus
+  timeline: "Nov 2015 - Present"
+  url: "https://analyses.migale.inrae.fr/presentation/service-offer/service-offer.html"
+  summary: Les besoins en analyse de données génomiques ne cessent de croître. Afin d'aider au mieux nos collaborateurs dans l'analyse de leurs données, nous proposons depuis 2016 une gamme de services destinés à répondre à leurs besoins en termes de formation, d'accompagnement et de collaboration pour des projets de grande envergure. Migale possède une expertise reconnue dans l'analyse de données et le développement d'applications/workflow en bioinformatique, l'analyse multi-omique ((méta)génomique, (méta)transcriptomique) pour les microorganismes.
+  tags: ["data-analysis"]
 
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+- name: DUBII
+  logo: /images/sections/projects/logo-ifb_CMJN-1.svg
+  role: Formateur et responsable de module
+  timeline: "2019 - 2021"
+  url: "https://www.france-bioinformatique.fr/dubii/"
+  summary: Diplôme Universitaire en Bioinformatique Intégrative (DUBii)
+  tags: ["training"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: EBAII
+  logo: /images/sections/projects/logo-ifb_CMJN-1.svg
+  role: Formateur et tuteur
+  timeline: "2013 - Present"
+  url: "https://www.france-bioinformatique.fr/formation/ebaii-2021-n1/"
+  summary: Formateur et tuteur lors des écoles EBAII
+  tags: ["training"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+- name: REDLOSSES
+  logo: /images/sections/projects/redlosses.png
+  role: Data analysis
+  timeline: "Jan 2018 - Present"
+  url: "http://www.redlosses.fr/"
+  summary: ANR project - Reduction of food losses by predicting microbiological spoilage 
+  tags: ["data-analysis"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: METAPDOCHEESE
+  logo: /images/sections/projects/metapdocheese.png
+  role: Analyse de données
+  timeline: "2017 - Present"
+  url: "https://www.rmtfromagesdeterroirs.com/projets-de-r-et-d/metapdocheese/"
+  summary: Nature et rôle des moteurs biotiques dans la construction des communautés microbiennes des fromages traditionnels (grands projets de séquençage France Génomique – 2017-2020)
+  tags: ["data-analysis"]

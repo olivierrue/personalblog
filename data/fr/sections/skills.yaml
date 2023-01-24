@@ -1,6 +1,6 @@
 # section information
 section:
-  name: দক্ষতা
+  name: Compétences
   id: skills
   enable: true
   weight: 2

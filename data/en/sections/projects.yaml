@@ -13,9 +13,9 @@ buttons:
 - name: All
   filter: "all"
 - name: Development
-  filter: "professional"
+  filter: "development"
 - name: Training
-  filter: "academic"
+  filter: "training"
 - name: Data Analysis
   filter: "data-analysis"
 

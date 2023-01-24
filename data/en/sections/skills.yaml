@@ -1,0 +1,44 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Linux
+  logo: /images/sections/skills/linux.png
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+
+- name: Git
+  logo: /images/sections/skills/git.png
+  summary: "Experienced with git-based development. Mostly, use Gitlab. Also, have experience in working with Github."
+
+- name: R
+  logo: /images/sections/skills/R.png
+  summary: "Read and write R codes."
+
+- name: Worklfow managers
+  logo: /images/sections/skills/slurm.png
+  summary: "Mainly SGE and Slurm."
+
+- name: Python
+  logo: /images/sections/skills/python.png
+  summary: "My favourite programming language."
+
+- name: Hugo
+  logo: /images/sections/skills/hugo.png
+  summary: "My favourite fastest framework for building websites."
+
+- name: JavaScript
+  logo: /images/sections/skills/javascript.png
+  summary: "Absolutely essential for all web programming."
+  
+- name: Rmarkdown
+  logo: /images/sections/skills/rmarkdown.png
+  summary: "Allow me to turn my analyses into high quality reports."

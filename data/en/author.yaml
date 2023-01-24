@@ -1,0 +1,20 @@
+# some information about you
+name: "Olivier Rué"
+nickname: "Olivier"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/olivier_rue.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "olivier.rue@inrae.fr"
+  phone: "+0134652893"
+  github: olivierrue
+  linkedin: olivier-rué-ba7925b8
+
+# some summary about what you do
+summary:
+  - I am a Bioinformatician
+  - I am a Devops
+  - I love NGS data analysis
+  - I work on open-source projects
+  - I love to produce beautiful analysis reports

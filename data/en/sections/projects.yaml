@@ -1,0 +1,71 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Development
+  filter: "professional"
+- name: Training
+  filter: "academic"
+- name: Data Analysis
+  filter: "data-analysis"
+
+# your projects
+projects:
+- name: FROGS
+  logo: /images/sections/projects/FROGS_logo.png
+  role: Developer
+  timeline: "November 2015 - Present"
+  url: "http://frogs.toulouse.inra.fr"
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: FROGS is a CLI workflow designed to produce an OTU count matrix from high depth sequencing amplicon data.
+  tags: ["development"]
+  
+- name: Data analysis service
+  logo: /images/sections/projects/migale.png
+  role: Management
+  timeline: "Nov 2015 - Present"
+  url: "https://analyses.migale.inrae.fr/presentation/service-offer/service-offer.html"
+  summary: The need for genomic data analysis continues to grow. To best help our collaborators in the analysis of their data, we have been offering since 2016 a range of services designed to meet their needs in term of training, support and collaboration for large-scale projects. Migale has a recognized expertise in data analysis and application/workflow development in bioinformatics, multi-omics analysis ((meta)genomics, (meta)transcriptomics) for microorganisms.
+  tags: ["data-analysis"]
+
+- name: DUBII
+  logo: /images/sections/projects/logo-ifb_CMJN-1.svg
+  role: Training module leader
+  timeline: "2019 - 2021"
+  url: "https://www.france-bioinformatique.fr/dubii/"
+  summary: Diplôme Universitaire en Bioinformatique Intégrative (DUBii)
+  tags: ["training"]
+
+- name: EBAII
+  logo: /images/sections/projects/logo-ifb_CMJN-1.svg
+  role: Training module leader
+  timeline: "2013 - Present"
+  url: "https://www.france-bioinformatique.fr/formation/ebaii-2021-n1/"
+  summary: I am regularly involved in the EBAII schools
+  tags: ["training"]
+
+- name: REDLOSSES
+  logo: /images/sections/projects/redlosses.png
+  role: Data analysis
+  timeline: "Jan 2018 - Present"
+  url: "http://www.redlosses.fr/"
+  summary: ANR project - Reduction of food losses by predicting microbiological spoilage 
+  tags: ["data-analysis"]
+
+- name: METAPDOCHEESE
+  logo: /images/sections/projects/metapdocheese.png
+  role: Data analysis
+  timeline: "2017 - Present"
+  url: "https://www.rmtfromagesdeterroirs.com/projets-de-r-et-d/metapdocheese/"
+  summary: Nature et rôle des moteurs biotiques dans la construction des communautés microbiennes des fromages traditionnels (grands projets de séquençage France Génomique – 2017-2020)
+  tags: ["data-analysis"]
